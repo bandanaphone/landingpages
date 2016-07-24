@@ -1,0 +1,112 @@
+body {font-family: 'PT Sans', sans-serif;}
+ul li {list-style-type: none; }
+h1 {font-size: 20px;}
+h2 {text-align: center;}
+h5 {font-size: 18px; color: #5d5d5d; }
+.selectednav {background: whitesmoke; border-bottom: 3px solid teal; color: teal; }
+nav li {padding: 15px 15px 20px 15px; font-size: 15px; font-weight: bold; display: inline-block; }
+nav ul {margin-bottom: 0px;}
+#heroimage {background-image:url('img/mi_a.jpg'); height: 400px; 
+background-repeat: no-repeat;}
+#heroimage h2 {margin-top: 0px;}
+#heroimagetext {position: relative; top: 50%; transform: translateY(-50%); text-align: center; 
+color: white;}
+#heroimagetext h5 {padding-bottom: 2%;}
+#heroimagetext h4 {padding: 10px; border-radius: 10px; border: 3px solid white; display: inline;}
+#phrases { margin-bottom: 35px; text-align: center; margin-top: 15px;}
+.phrases_stat i { color: teal; font-size: 40px; border-radius: 50%; border: 2px solid teal; padding: 10px 15px 10px 15px;}
+.phrases_section { padding: 10px; border-radius: 5px; border: 1px solid teal; overflow: hidden; height: 205px;}
+#phrases h4 {font-weight: bold;}
+.phrases_hover {height: 240px; width: 100%; background: teal;}
+
+.phrases_hover, .phrases_stat {
+transition: 0.3s ease;
+-webkit-transition: 0.3s ease;
+-moz-transition: 0.3s ease;
+-o-transition: 0.3s ease;
+-ms-transition: 0.3s ease;}
+
+.phrases_stat {height: 185px; padding-bottom: 3%;} 
+.phrases_section:hover .phrases_hover {margin-top: -190px;}
+.phrases_section:hover .phrases_stat {color: white;}
+.phrases_section:hover .phrases_stat i {color: white; border: 2px solid white;}
+
+#the_team {background: #d4d4d4; margin-bottom: 15px;}
+#the_team h2 {margin-bottom: 25px;margin-top: 25px;}
+.profile_pic {text-align: center;}
+.profile img {border: 1px solid white;}
+.col-md-3, .col-md-4 {margin-bottom: 10px;}
+
+.package_container {text-align: center; border: 1px solid #1e4f63;}
+.package_container li {font-size: 16px; padding: 8px; border-bottom: 1px solid grey;}
+.package_container ul {padding: 0px;}
+.basic, .pro, .primo { color: white; margin-top: 0px;}
+.charge {font-weight: bold; background: #b6b6b6;}
+.package_container li:nth-last-child(1){border-bottom: 0px;}
+.basic {background: #1e4f63;}
+.pro {background: teal; padding-top: 50px; padding-bottom: 14px; }
+.primo {background: orange;}
+
+.ribbon {padding: 7px 0;    
+	width: 102%;
+	margin-top: 4px;
+    position: absolute;
+    background: orangered;
+	z-index:1;
+    margin-left: -19px;}
+.ribbon span {display: inline-block; width: 100%; position: relative;}
+.ribbon span:before, .ribbon span:after {
+content: '';
+width: 0;
+height: 0;
+border-style: solid;
+position: absolute;
+border-width: 8px;
+bottom: -23px;}
+
+.ribbon span:before {left: 4px; border-color: maroon maroon transparent transparent;}
+.ribbon span:after {right: 4px; border-color: maroon transparent transparent maroon; z-index:1;}
+.ribbon:before, .ribbon:after {
+content: '';
+width: 0;
+height: 0;
+position: absolute;
+border-width: 20px;
+border-style: solid;
+bottom: -16px;}
+
+.ribbon:before {
+left: -20px;
+border-color: orangered orangered orangered transparent;}
+
+.ribbon:after {	
+right: -20px;
+border-color: orangered transparent orangered orangered;}
+.ribbon p {color: white; font-weight: bold; font-size: 16px;}
+.basic, .primo, .pro {margin-bottom: 0px;}
+
+footer {background: teal; color: white; padding-left: 15px; height: 100%;}
+footer a {text-decoration: none; color: yellow;}
+footer ul li {display: inline;}
+
+@media (min-width: 443px) and (max-width: 990px){
+.ribbon {width: 101%;}}
+#testimonials h2 {margin-bottom: 40px;}
+#testimonials {background: #f2f2f2; padding: 5px 0px 10px 0px;}
+.testimonials_container {margin: 0 auto; width: 50%;}
+
+#contact {margin-bottom: 40px; background-image:url('img/contact.jpg'); color: white; padding-top: 15px; margin-top: 10px; border-radius: 5px;}
+#contact_name, #contact_email { width: 80%; margin: auto;}
+#contact_subject, #contact_field, #follow_me {width: 90%; margin: auto;}
+#follow_me i {font-size: 35px;  margin-right: 5px; margin-bottom: 5px;}
+#follow_me li {display: inline;}
+.soc_med {opacity: 0.2;
+color: white;
+transition: 0.3s ease;
+-webkit-transition: 0.3s ease;
+-moz-transition: 0.3s ease;
+-o-transition: 0.3s ease;
+-ms-transition: 0.3s ease;
+}
+.soc_med:hover {opacity: 1; color:#3366ff;}
+#social_media {text-align:right; margin-top: 15px;}
