@@ -1,0 +1,120 @@
+body {
+  background: tan;
+  font-family: 'Roboto', sans-serif;
+  color: sienna; }
+
+#main {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  color: sienna; }
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 140px;
+  color: sienna;
+  text-align: center; }
+
+@media (max-width: 600px) {
+  #main {
+    width: 95%; } }
+ul li {
+  list-style-type: none;
+  font-size: 17px; }
+
+nav ul li {
+  display: inline;
+  color: sienna;
+  font-weight: bold;
+  margin-right: 10%; }
+
+.navsel {
+  border-top: 2px solid sienna; }
+
+#homesection {
+  width: 49.8%;
+  height: 100%; }
+
+#homesection h1 {
+  margin: auto; }
+
+#ourmenusection {
+  width: 49.8%;
+  height: 100%; }
+
+#scroller div {
+  display: inline-block; }
+
+#scroller {
+  width: 200%;
+  height: 100%;
+  transition: 0.3s ease; }
+
+#menu li {
+  font-size: 15px; }
+
+.takesection {
+  position: absolute; }
+
+/*
+#main:hover #scroller {margin-left: -100%;}
+*/
+nav {
+  width: 70%;
+  height: 6%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+#navhold {
+  border-bottom: 1px solid sienna; }
+
+#pointer {
+  position: absolute;
+  z-index: 1;
+  width: 20px;
+  height: 1px;
+  background: tan;
+  margin-top: 16px;
+  transition: 0.3s ease;
+  margin-left: 10px; }
+
+#pointer:before {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 1px;
+  background: sienna;
+  position: absolute;
+  transform: rotate(56deg);
+  top: -8px;
+  right: -5px; }
+
+#pointer:after {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 1px;
+  background: sienna;
+  position: absolute;
+  transform: rotate(-56deg);
+  bottom: 8px;
+  right: 5px; }
+
+#navhold li {
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */
