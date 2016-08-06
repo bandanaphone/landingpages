@@ -1,0 +1,26 @@
+body {background: skyblue;}
+h1, h2, p, h3 {color: white;}
+h1 {font-family:orange_juiceregular; font-size: 39px; text-align:center;}
+p {font-size: 14px;}
+.winning {margin-bottom: 0px; margin-top: 0px;}
+#instruction {margin-top: 10px; margin-bottom: 50px; width: 500px; line-height: 20px;}
+#instruction span {font-weight: bold;}
+#thecandidates {text-align: center;}
+#maincontains { width: 800px; height: 400px;}
+#mainholds {position: absolute; margin-top: 145px;
+left: 50%; transform: translateX(-50%); border: 2px solid white; background:#80bfff; }
+#theright {position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: tomato;
+	border-right: 2px solid white;
+    z-index: 1;}
+#elcontent {z-index: 2;position: relative; padding-top: 5%;}	
+@font-face {
+    font-family: 'orange_juiceregular';
+    src: url('orangefont/orange_juice_2.0-webfont.woff2') format('woff2'),
+         url('orangefont/orange_juice_2.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
